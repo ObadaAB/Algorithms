@@ -29,4 +29,9 @@ public class Algorithms
         sort(a);
         return a[k];
     }
+
+    public int getMiddle(int[] a)
+    {
+        return getKthMinimum(a, a.length / 2);
+    }
 }
