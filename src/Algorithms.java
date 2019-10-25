@@ -37,5 +37,9 @@ public class Algorithms
         sort(a);
         return a[a.length - 1 - k];
     }
-
+    
+    public int getMiddle(int[] a)
+    {
+        return getKthMinimum(a, a.length / 2);
+    }
 }
